@@ -1,0 +1,89 @@
+body{
+  font-family: arial, sans-serif;
+  background: #ccc;
+  margin: 0;
+}
+
+.top{
+  background-image: url(../imagens/bg-3.jpg);
+  height: 500px;
+  background-position: right center;
+  background-size: cover;
+  border-top: 1px solid transparent;
+}
+
+.top-content{
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+}
+
+.top-content h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  text-shadow: 2px 2px 1px black;
+}
+
+.top nav ul {
+  text-align: right;
+  margin: 40px 40px 0 0;
+}
+
+.top nav li {
+  display: inline-block;
+  list-style: none;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+
+.top nav a {
+  display: block;
+  background-color: rgba(0,0,0,0.3);
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.top nav a:hover {
+ background-color: rgba(0,0,0,0.6);
+}
+
+main{
+  width: 80%;
+  margin: auto;
+}
+
+.top-content p{
+  background-color: rgba(0,0,0,0.6);
+  display: inline-block;
+  padding: 20px;
+  border-bottom: solid;
+  border-color: #ccc;
+  font-size: 20px;
+}
+
+.content-section{
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.content-section article header{
+  background-color: #ccc;
+  margin: 0;
+  border-bottom: solid;
+  border-color: rgb(78, 78, 78);
+  padding: 1px 15px 1px;
+}
+
+.rodape{
+  color: white;
+  text-shadow: 2px 2px 1px black;
+  text-align: center;
+  background-color: #6b6c68;
+  height: 80px;
+  line-height: 80px;
+}
